@@ -6,5 +6,5 @@
 
 # Options
 
-- `--min=${MIN POD COUNT}
-- `--cpu-percent=${CPU USAGE IN PERCENT}
+- `--min=${MIN POD COUNT}`
+- `--cpu-percent=${CPU USAGE IN PERCENT}`
