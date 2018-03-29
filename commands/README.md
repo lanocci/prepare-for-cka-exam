@@ -6,7 +6,7 @@
 
 ### クラスタログイン、kubeconfig系
 
-- [kubectl config](./config)
+- [kubectl config](./config.md)
 
 ### リソース系
 
