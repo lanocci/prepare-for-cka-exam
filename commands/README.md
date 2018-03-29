@@ -4,9 +4,9 @@
 
 > https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
-### クラスタログイン、認証系
+### クラスタログイン、kubeconfig系
 
-- [kubectl config]()
+- [kubectl config](./config)
 
 ### リソース系
 
