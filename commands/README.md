@@ -4,18 +4,23 @@
 
 > https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
-### クラスタログイン、kubeconfig系
+### kubeconfig系
 
 - [kubectl config](./config.md)
 
-### リソース系
+### node
+
+- ノードからPodを退避
+  - [kubectl drain](./drain.md)
+
+### Pod
 
 - スケールアウト・スケールイン
   - [kubectl scale](./scale.md)
 - オートスケール
   - [kubectl autoscale](./autoscale.md)
 
-### アプリ（コンテナ）系
+### コンテナ
 
 - コンテナのログを確認
   - [kubectl log](./log.md)
