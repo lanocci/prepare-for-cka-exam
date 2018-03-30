@@ -7,7 +7,10 @@
 
 - 強制的にdrainする
   - `--force`
-    - *volume を持っているノードはdrainできない*
+    - *volume を持っているノードや、mirror pod, daemonset, deploymentでマネージされていないポッドが配置されていたらdrainできない*
+- daemonsetも落としてdrainする
+  - `--ignore-daemonset=true`
+    - *daemonset があるノードは*
 
 > https://kubernetes-v1-4.github.io/docs/user-guide/kubectl/kubectl_drain/
 > https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/
