@@ -21,8 +21,8 @@
   - [kubectl apply](./apply.md)
 - 動いてるmanifestを修正
   - [kubectl edit](./edit.md)
-- 動いてるconputeリソースの設定変更
-  - [kubectl set](./set.md)
+- 動いてるcomputeリソースの設定変更
+  - [kubectl set](./set.md)
 
 ### Node
 
