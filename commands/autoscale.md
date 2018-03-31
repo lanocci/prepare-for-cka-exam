@@ -8,3 +8,5 @@
 
 - `--min=${MIN POD COUNT}`
 - `--cpu-percent=${CPU USAGE IN PERCENT}`
+
+> https://kubernetes-v1-4.github.io/docs/user-guide/kubectl/kubectl_autoscale/
